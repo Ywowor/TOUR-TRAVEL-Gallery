@@ -1,0 +1,19 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #1a120b;
+}
+
+#navBar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#navBar .nav-link {
+  font-size: 1.25rem;
+  font-weight: 100;
+  color: white;
+}
+
+#navBar .nav-link:hover {
+  color: #1a120b;
+}
