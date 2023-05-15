@@ -28,7 +28,11 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md" id="navBar" data-bs-theme="dark">
+      <nav
+        class="navbar fixed-top navbar-expand-sm"
+        id="navBar"
+        data-bs-theme="dark"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">TOUR & TRAVEL</a>
           <button
@@ -52,6 +56,24 @@
         </div>
       </nav>
     </header>
+
+    <section class="container-fluid">
+      <div class="row vh-100" id="head">
+        <div class="card text-bg-dark rounded-0 px-0">
+          <img
+            src="assets/image/entrance.jpg"
+            class="img-fluid h-100"
+            alt="entrance"
+          />
+          <div
+            class="card-img-overlay d-flex align-items-center justify-content-center"
+          >
+            <h1 class="card-title d-none d-sm-block">WELCOME</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
