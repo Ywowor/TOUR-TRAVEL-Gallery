@@ -30,26 +30,24 @@ body {
 
 #home span,
 #destination span,
-#stay span {
+#stay span,
+#stay h2 {
   color: #212a3e;
   font-weight: 600;
 }
 
 /* Destination Section */
-#destination h1 {
+#destination img {
+  height: 250px;
+}
+
+#destination h1,
+#stay h1 {
   font-size: 2rem;
   font-weight: 100;
 }
 
-#destination img {
-  height: 250px;
-  filter: brightness(0.5);
-}
-
 /* Lodging Section */
-#stay h1 {
-  font-size: 2rem;
-}
 #stay h2,
 #stay .lead {
   font-size: 1rem;
