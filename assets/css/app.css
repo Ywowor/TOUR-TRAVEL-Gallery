@@ -27,3 +27,8 @@ body {
   font-weight: 100;
   letter-spacing: 4px;
 }
+
+#head span {
+  color: #212a3e;
+  font-weight: 600;
+}
