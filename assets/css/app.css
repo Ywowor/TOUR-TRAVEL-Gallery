@@ -18,17 +18,55 @@ body {
   color: #1a120b;
 }
 
-#head img {
+/* Home Section */
+#home img {
   filter: brightness(0.6) blur(1.5px);
 }
-
-#head h1 {
+#home h1 {
   font-size: 3rem;
   font-weight: 100;
   letter-spacing: 4px;
 }
 
-#head span {
+#home span,
+#destination span,
+#stay span {
   color: #212a3e;
   font-weight: 600;
+}
+
+/* Destination Section */
+#destination h1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+#destination img {
+  height: 250px;
+  filter: brightness(0.5);
+}
+
+/* Lodging Section */
+#stay h1 {
+  font-size: 2rem;
+}
+#stay h2,
+#stay .lead {
+  font-size: 1rem;
+}
+
+@media (min-width: 1200px) {
+  #destination img {
+    height: 500px;
+  }
+
+  #destination h1,
+  #stay h1,
+  #stay h2 {
+    font-size: 3rem;
+  }
+
+  #stay .lead {
+    font-size: 1.5rem;
+  }
 }
