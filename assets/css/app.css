@@ -3,6 +3,10 @@ body {
   background-color: #1a120b;
 }
 
+#navBar {
+  background-color: black;
+}
+
 #navBar .navbar-brand {
   font-size: 1.5rem;
   font-weight: 600;
@@ -20,7 +24,7 @@ body {
 
 /* Home Section */
 #home img {
-  filter: brightness(0.6) blur(1.5px);
+  filter: brightness(0.6);
 }
 #home h1 {
   font-size: 3rem;
@@ -31,7 +35,9 @@ body {
 #home span,
 #destination span,
 #stay span,
-#stay h2 {
+#stay h2,
+#about span,
+#foot span {
   color: #212a3e;
   font-weight: 600;
 }
@@ -42,7 +48,8 @@ body {
 }
 
 #destination h1,
-#stay h1 {
+#stay h1,
+#about h1 {
   font-size: 2rem;
   font-weight: 100;
 }
@@ -51,6 +58,25 @@ body {
 #stay h2,
 #stay .lead {
   font-size: 1rem;
+}
+
+/* Footer Section */
+#foot {
+  background-color: black;
+}
+
+#foot li {
+  font-size: 1.5rem;
+}
+
+#foot a {
+  color: #212a3e;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+#foot a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 1200px) {
