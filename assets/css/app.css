@@ -1,10 +1,7 @@
 body {
   font-family: "Nunito", sans-serif;
-  background-color: #1a120b;
-}
-
-#navBar {
-  background-color: black;
+  background-color: #394867;
+  scroll-behavior: smooth;
 }
 
 #navBar .navbar-brand {
@@ -19,12 +16,29 @@ body {
 }
 
 #navBar .nav-link:hover {
-  color: #1a120b;
+  color: #212a3e;
+}
+
+.scrolled {
+  background-color: #394867;
+  transition: background 500ms;
+}
+
+.deco {
+  color: #212a3e;
+  font-weight: 600;
+}
+
+.headText {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
 }
 
 /* Home Section */
 #home img {
-  filter: brightness(0.6);
+  filter: brightness(0.8);
 }
 #home h1 {
   font-size: 3rem;
@@ -32,45 +46,35 @@ body {
   letter-spacing: 4px;
 }
 
-#home span,
-#destination span,
-#stay span,
-#stay h2,
-#about span,
-#foot span {
-  color: #212a3e;
-  font-weight: 600;
+/* Destination Section */
+#destination {
+  background-color: #9ba4b5;
 }
 
-/* Destination Section */
 #destination img {
   height: 250px;
 }
 
-#destination h1,
-#stay h1,
-#about h1 {
-  font-size: 2rem;
-  font-weight: 100;
-}
-
 /* Lodging Section */
-#stay h2,
 #stay .lead {
   font-size: 1rem;
 }
 
 /* Footer Section */
-#foot {
-  background-color: black;
+#foot > div:nth-child(1) {
+  background-color: #212a3e;
+}
+#foot > div:nth-child(2) {
+  background-color: #111a2e;
 }
 
 #foot li {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
-#foot a {
-  color: #212a3e;
+#foot a,
+#foot span {
+  color: #394867;
   text-decoration: none;
   font-weight: 900;
 }
@@ -79,18 +83,31 @@ body {
   text-decoration: underline;
 }
 
+#foot > div:nth-child(2) a {
+  cursor: pointer;
+  font-weight: 100;
+}
+#foot > div:nth-child(2) a:hover {
+  color: white;
+}
+
 @media (min-width: 1200px) {
+  /* Destination section */
   #destination img {
     height: 500px;
   }
 
-  #destination h1,
-  #stay h1,
-  #stay h2 {
+  .headText {
     font-size: 3rem;
   }
 
+  /* Lodging Section */
   #stay .lead {
+    font-size: 1.5rem;
+  }
+
+  /* Footer section */
+  #foot li {
     font-size: 1.5rem;
   }
 }
