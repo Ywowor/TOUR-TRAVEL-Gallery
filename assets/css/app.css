@@ -19,31 +19,25 @@ body {
   color: #212a3e;
 }
 
-.scrolled {
-  background-color: #394867;
-  transition: background 500ms;
-}
-
+/* Classes */
 .deco {
   color: #212a3e;
   font-weight: 600;
 }
-
 .headText {
   color: white;
   text-align: center;
   font-size: 2rem;
   font-weight: 100;
 }
+.scrolled {
+  background-color: #394867;
+  transition: background 500ms;
+}
 
 /* Home Section */
 #home img {
   filter: brightness(0.8);
-}
-#home h1 {
-  font-size: 3rem;
-  font-weight: 100;
-  letter-spacing: 4px;
 }
 
 /* Destination Section */
@@ -92,13 +86,19 @@ body {
 }
 
 @media (min-width: 1200px) {
-  /* Destination section */
-  #destination img {
-    height: 500px;
-  }
-
+  /* Classes */
   .headText {
     font-size: 3rem;
+  }
+
+  /* Home Section */
+  #home .headText {
+    font-size: 4rem;
+  }
+
+  /* Destination Section */
+  #destination img {
+    height: 500px;
   }
 
   /* Lodging Section */
@@ -106,7 +106,7 @@ body {
     font-size: 1.5rem;
   }
 
-  /* Footer section */
+  /* Footer Section */
   #foot li {
     font-size: 1.5rem;
   }
