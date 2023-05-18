@@ -45,13 +45,14 @@ body {
   background-color: #9ba4b5;
 }
 
-#destination img {
-  height: 150px;
-}
-
 /* Lodging Section */
 #stay .lead {
   font-size: 1rem;
+}
+
+/* About Section */
+#about .lead {
+  font-size: 0.85rem;
 }
 
 /* Footer Section */
@@ -96,13 +97,9 @@ body {
     font-size: 4rem;
   }
 
-  /* Destination Section */
-  #destination img {
-    height: 500px;
-  }
-
   /* Lodging Section */
-  #stay .lead {
+  #stay .lead,
+  #about .lead {
     font-size: 1.5rem;
   }
 
